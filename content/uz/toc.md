@@ -1,38 +1,38 @@
-The Twelve Factors
+12 omilli ilova modeli (The Twelve-Factor App)
 ==================
 
-## [I. Codebase](./codebase)
-### One codebase tracked in revision control, many deploys
+## [I. Kod bazasi (Codebase)](./codebase)
+### Versiyalarni boshqarish tizimida saqlanadigan yagona kod bazasi, bir nechta deploylar uchun
 
-## [II. Dependencies](./dependencies)
-### Explicitly declare and isolate dependencies
+## [II. Bog‘liqliklar (Dependencies)](./dependencies)
+### Barcha bog‘liqliklarni aniq e’lon qilish va izolyatsiya qilish
 
-## [III. Config](./config)
-### Store config in the environment
+## [III. Konfiguratsiya (Config)](./config)
+### Konfiguratsiyani muhit o‘zgaruvchilarida saqlash
 
-## [IV. Backing services](./backing-services)
-### Treat backing services as attached resources
+## [IV. Tashqi xizmatlar (Backing Services)](./backing-services)
+### Tashqi xizmatlarni (DB, cache, API) ulanadigan resurslar sifatida ko‘rish
 
 ## [V. Build, release, run](./build-release-run)
-### Strictly separate build and run stages
+### Build, release va run bosqichlarini qat’iy ajratish
 
-## [VI. Processes](./processes)
-### Execute the app as one or more stateless processes
+## [VI. Jarayonlar (Processes)](./processes)
+### Ilovani stateless (holatsiz) jarayonlar sifatida ishga tushirish
 
-## [VII. Port binding](./port-binding)
-### Export services via port binding
+## [VII. Port orqali ulanish (Port Binding)](./port-binding)
+### Xizmatlarni port orqali tashqi dunyoga ochish
 
-## [VIII. Concurrency](./concurrency)
-### Scale out via the process model
+## [VIII. Parallel ishlash (Concurrency)](./concurrency)
+### Jarayonlar modeli orqali gorizontal kengaytirish (scale out)
 
-## [IX. Disposability](./disposability)
-### Maximize robustness with fast startup and graceful shutdown
+## [IX. Barqarorlik va tezkorlik (Disposability)](./disposability)
+### Tez ishga tushish va muammosiz (graceful) to‘xtash orqali barqarorlikni maksimal darajada oshirish
 
-## [X. Dev/prod parity](./dev-prod-parity)
-### Keep development, staging, and production as similar as possible
+## [X. Dev/Prod muvofiqligi (Dev/Prod Parity)](./dev-prod-parity)
+### Development, staging va production muhitlarini imkon qadar bir xil saqlash
 
-## [XI. Logs](./logs)
-### Treat logs as event streams
+## [XI. Loglar (Logs)](./logs)
+### Loglarni hodisalar (eventlar) oqimi sifatida ko‘rish
 
-## [XII. Admin processes](./admin-processes)
-### Run admin/management tasks as one-off processes
+## [XII. Admin jarayonlar (Admin Processes)](./admin-processes)
+### Admin va boshqaruv vazifalarini alohida, bir martalik jarayonlar sifatida bajarish
