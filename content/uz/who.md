@@ -1,4 +1,4 @@
-Who should read this document?
+Ushbu hujjat kimlar uchun mo‘ljallangan?
 ==============================
 
-Any developer building applications which run as a service.  Ops engineers who deploy or manage such applications.
+Xizmat (servis) sifatida ishlaydigan ilovalarni yaratuvchi har qanday dasturchi.  Bunday ilovalarni joylashtiruvchi yoki boshqaruvchi operatsion muhandislar.
